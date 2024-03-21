@@ -1,0 +1,107 @@
+* {
+    background-color: rgb(19, 19, 21);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#task-input {
+    height: max(50px, 5vh);
+    width: max(200px, 20vw);
+    background-color: rgb(64, 64, 72);
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+
+}
+
+@media screen and (max-width: 340px) {
+    #task-enter {
+        margin-top: 10px;
+    }
+}
+
+
+
+#task-enter {
+    height: max(50px, 5vh);
+    width: max(100px, 8vw);
+    background-color: rgb(64, 64, 72);
+    border-radius: 10px;
+    border: none;
+
+
+
+}
+
+h1 {
+    font-size: max(60px, 4vh);
+    color: rgb(102, 61, 246);
+    padding-right: 20px;
+    margin-right: 10px;
+}
+
+.note {
+    background-color: rgb(42, 40, 46);
+    height: max(100px, 5vh);
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#text {
+    background-color: rgb(42, 40, 46);
+    color: white;
+    font-size: max(20px, 1vh);
+    padding-left: max(40px, 1vw);
+}
+
+#icon {
+    height: 10vh;
+    width: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(42, 40, 46);
+    z-index: 2;
+    color: white;
+}
+
+#icons {
+    color: white;
+    z-index: 3;
+    background-color: rgb(42, 40, 46);
+    padding-left: max(20px, 2vw);
+    height: 20px;
+    width: 20px;
+
+}
+
+#check {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(198, 110, 69);
+    border-radius: 50%;
+    border: none;
+}
